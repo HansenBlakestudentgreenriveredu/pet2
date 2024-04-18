@@ -1,5 +1,4 @@
 <?php
-
 // 328/pets/index.php
 // This is the controller
 
@@ -22,5 +21,4 @@ $f3->route('GET /', function() {
     echo $view->render('views/home.html');
 });
 
-// Run fat-free
 $f3->run();
